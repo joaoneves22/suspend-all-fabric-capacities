@@ -25,6 +25,7 @@ This script is not affiliated with or supported by Microsoft
 I recommend assigning the Contributor role
 
 - In the Members tab, select Managed identity
+- Select Members and search for the Automation Account created earlier
 
 ### 3 – Import the required modules
 
@@ -43,3 +44,4 @@ I recommend assigning the Contributor role
 The script reuses code from https://github.com/jugi92/suspend_or_resume_fabric_capacity_runbook
 
 The advantages of my script are the fact it incorporates error handling and loops through all Fabric capacities of an Azure subscription, without the need to provide parameters.
+
